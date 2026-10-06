@@ -55,18 +55,14 @@
 </div>
 
 <script>
-
-    // LINK CỐ ĐỊNH
     const linkQR =
-        "https://hoangchangmy1-code.github.io/my-qr/";
+        "https://hoangchangmy1-code.github.io/My-qr/";
 
-    // TẠO MÃ QR
-    const qr =
-        "https://api.qrserver.com/v1/create-qr-code/?size=500x500&data="
+    const qrURL =
+        "https://api.qrserver.com/v1/create-qr-code/?size=600x600&data="
         + encodeURIComponent(linkQR);
 
-    document.getElementById("qr").src = qr;
-
+    document.getElementById("qr").src = qrURL;
 </script>
 
 </body>
